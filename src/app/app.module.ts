@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { BannerComponent } from './banner-inline.component';
+import { BannerComponent } from './banner.component';
 
 @NgModule({
   declarations: [
