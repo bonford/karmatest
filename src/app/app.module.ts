@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { BannerComponent } from './banner.component';
+import { WelcomeComponent } from './welcome.component';
 
 @NgModule({
   declarations: [
     
-    BannerComponent
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
@@ -16,6 +16,6 @@ import { BannerComponent } from './banner.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [BannerComponent]
+  bootstrap: [WelcomeComponent]
 })
 export class AppModule { }
