@@ -25,6 +25,7 @@ describe('BannerComponent (inline template)', () => {
         fixture.detectChanges();
         expect(el.textContent).toContain(comp.title);
     });
+  
 
       it('should display a different test title', () => {
           comp.title = 'Test Title';

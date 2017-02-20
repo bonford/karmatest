@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { WelcomeComponent } from './welcome.component';
+import { TwainComponent } from './shared/twain.component';
 
 @NgModule({
   declarations: [
     
-    WelcomeComponent
+    TwainComponent
   ],
   imports: [
     BrowserModule,
@@ -16,6 +16,6 @@ import { WelcomeComponent } from './welcome.component';
     HttpModule
   ],
   providers: [],
-  bootstrap: [WelcomeComponent]
+  bootstrap: [TwainComponent]
 })
 export class AppModule { }
